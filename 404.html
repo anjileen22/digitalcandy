@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<meta charset="utf-8">
+		<title>Digital Candy Website Design</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="canonical" href=""> <!-- Prevent indexing as duplicate content -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="home">
+
+<div class="hero topbar">
+<div class="container">
+<p>Email: hello@digitalcandy.co.nz</p>
+</div>
+</div>
+
+
+<div class="nav container">
+<div class="logo">
+<a id="logo" href="index.html"><img src="dclogo.png"></a>
+</div>
+<div class="navitems">
+<a href="http://digitalcandy.co.nz">Home</a>
+<a href="/websites">Standard Websites</a>
+<a href="/our-process">Our Process</a>
+<a id="contact" href="/contact">Contact</a>
+</div>
+
+<div id="mobilenav">
+<a href="http://digitalcandy.co.nz">Home</a>
+<a href="/websites">Standard Websites</a>
+<a href="/our-process">Our Process</a>
+<a id="contact" href="/contact">Contact</a>
+</div>
+
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("mobilenav");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 
+</script>
+
+
+<div class="main">
+<div class="container">
+
+<div class="row">
+<h2>Oops! That page cannot be found.</h2>
+
+</div>
+</div>
+</div>
+
+<div class="footer">
+<div class="container">
+<div class="row">
+
+<div class="footercolleft">
+<p class="footer">
+Copyright &copy; <?php echo date("Y"); ?> Digital Candy</p>
+</div>
+
+<div class="footercolright">
+<p class="footer">
+Affordable website design</p>
+</div>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>
